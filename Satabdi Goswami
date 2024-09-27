@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satabdi Goswami - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1cursorXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="icon" href="Images/me.png">
+    <link rel="stylesheet" href="My.css">
+    
+</head>
+<body>
+
+    <nav id="nav">
+        <a href="/"><h5 id="navTitle"></h5></a>
+        <div id="navRight">
+            <a href="/"><abbr title="Home"><button data-count="Home">Home</button></abbr></a>
+            <a href="#Skills"><abbr title="Skills"><button data-count="Skills">Skills</button></abbr></a>
+            <a href="#Achievements"><abbr title="Achievements"><button data-count="Achievements">Achievements</button></abbr></a>
+            <a href="#Experience"><abbr title="Experience"><button data-count="Experience">Experience</button></abbr></a>
+            <a href="#Projects"><abbr title="Projects"><button data-count="Projects">Projects</button></abbr></a>
+
+            <abbr title="Contacts"><span onclick="OpenContacts()">Contact me</span></abbr>
+        </div>
+        <button id="navMenu" onclick="Menu()" class="fa-solid fa-bars"></button>
+    </nav>
+
+
+
+    <div id="Con1"> 
+        <img src="/Images/me2.jpeg" alt="">
+        <div id="Con1Info">
+            <h3 style="display:none;animation:rise 1s ease;" id="C11">Hello there!,</h3>
+            <h3 style="display:none;animation:rise 1s ease;" id="C12">Welcome to my Portfolio webpage,</h3>
+            <h1 style="display:none;" id="C13">My name is </h1>
+            <h2 style="display:none;" id="C14">I am an<b class="wannabe">Software Developer</b></h2>
+            <p style="display:none;" id="C15">Hello everyone, I am Satabdi Goswami, a pre-final year CSE Undergraduate at NIT Agartala. I am an aspiring software engineer and a programming enthusiast. Proficient in DSA, competitive programming, web development, and data science, I aspire to work in these domains in the future. I am also keen on learning new skills and further implementing my existing ones. I am actively seeking work and collaboration opportunities.</p>
+            <span style="display:none;" id="C16">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </span>
+            <a href="https://drive.google.com/file/d/1POvRs-cGtcI6G3QR-QQUkucnFzUhrOKd/view?usp=drivesdk" target="_blank"><button id="C17" style="display:none;"><i class="fa-solid fa-book"></i> Resume <p class="fa-solid fa-angle-right"></p></button></a>
+        </div> 
+    </div>
+
+    
+
+    <div  id="Skills">
+        <center id="Con2">
+            <h1>My Skills</h1>
+            <p style="margin-top:3pc;">Basics</p>
+            <div id="Con2Com">
+                <abbr title="HTML"><img src="/Images/html.png" alt=""></abbr>
+                <abbr title="CSS"><img style="animation-delay:1s;" src="/Images/css.png" alt=""></abbr>
+                <abbr title="Javascript"><img src="/Images/js.png" alt=""></abbr>
+            </div>
+            <p style="margin-top:5pc;">Languages</p>
+            <div id="Con2Com">
+                <abbr title="Java"><img src="/Images/java.png" alt=""></abbr>
+                <abbr title="C"><img style="animation-delay:1s;" src="/Images/C.png" alt=""></abbr>
+                <abbr title="Python"><img src="/Images/python.png" alt=""></abbr>
+                <abbr title="Javascript"><img src="/Images/js.png" style="animation-delay:1s;" alt=""></abbr>
+            </div>
+            <div id="Con2ComHighlight">
+                <img src="/Images/java.png" alt="">
+                <div id="Con2ComHighlightInfo">
+                    <h1>Java</h1>
+                    <p>Java holds the distinction of being my inaugural programming language, which I embarked upon during my collegiate years. Over a dedicated span of two years, I have consistently honed my skills through rigorous practice and hands-on experience. This commitment has culminated in a mastery of Java, evident in my adeptness at crafting efficient and elegant solutions to diverse programming challenges</p><br>
+                    <ul>
+                        <li>Data Structure and Algorithm</li>
+                        <li>Artificial Intelligence</li>
+                        <li>Object oriented Programming System</li>
+                        <li>Machine learning</li> 
+                    </ul><br>
+                    <p>Proficient in *Java, I have honed expertise in **Data Structures* and *Algorithms, leveraging intricate problem-solving techniques. My mastery extends to **Object-Oriented Programming, ensuring robust, scalable software architecture. Additionally, I possess a deep understanding of **Artificial Intelligence* principles, employing advanced algorithms to develop intelligent systems. My comprehensive skill set empowers me to tackle complex challenges with efficiency and innovation, contributing effectively to diverse projects and teams.</p>
+                </div>
+            </div>
+            <p style="margin-top:5pc;">Tools</p>
+            <div id="Con2Com">
+                <a href="https://github.com/SatabdiGoswami" target="_blank"><abbr title="Github"><img src="/Images/github.png" alt=""></abbr></a>
+                <abbr title="Vs code"><img  style="animation-delay:1s;" src="/Images/vsCode.webp" alt=""></abbr>
+                <abbr title="Google Collab"><img src="/Images/google.png" alt=""></abbr> 
+                <abbr title="Intellij"><img  style="animation-delay:1s;" src="/Images/Intellij.png" alt=""></abbr>
+                <abbr title="Git"><img src="/Images/git.png" alt=""></abbr>
+            </div>
+            <p style="margin-top:5pc;">Others</p>
+            <div id="SkillOther">
+                <div class="SkillOtherCard">
+                    <i class="fa-solid fa-book"></i>
+                    <h3>Communication</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur omnis eos vel assumenda necessitatibus quibusdam modi magni sit saepe nisi perferendis molestiae consequatur, ipsum voluptatibus! Ipsum eos veritatis provident reiciendis.</p>
+                </div>
+                <div class="SkillOtherCard">
+                    <i class="fa-solid fa-users"></i>
+                    <h3>Social skill</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur omnis eos vel assumenda necessitatibus quibusdam modi magni sit saepe nisi perferendis molestiae consequatur, ipsum voluptatibus! Ipsum eos veritatis provident reiciendis.</p>
+                </div>
+                <div class="SkillOtherCard">
+                    <i class="fa-solid fa-flag"></i>
+                    <h3>Leadership</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur omnis eos vel assumenda necessitatibus quibusdam modi magni sit saepe nisi perferendis molestiae consequatur, ipsum voluptatibus! Ipsum eos veritatis provident reiciendis.</p>
+                </div>
+            </div>
+        </center>
+    </div>
+
+
+
+    <div id="Achievements">
+        <center><h1 style="margin:5pc 0 3pc 0;color:#ffca38;">My Achievements</h1></center>
+        <table id="AchievementsCon">
+            <tr>
+                <th style="background:#fff;color:#000;">Subject</th>
+                <th style="background:#fff;color:#000;">Achievement</th>
+                <th style="background:#fff;color:#000;">Date</th>
+                <th style="background:#fff;color:#000;">Instituition</th>
+            </tr>
+
+            <tr><th>matriculation</th><th>92%</th><th>4/15/2019</th><th>Jawahar Navadaya Vidyalaya</th></tr>
+            <tr><th>12th boards</th><th>90%</th><th>4/15/2022</th><th>Shishu Bihar Higher Secondary School</th></tr>
+            
+        </table>
+    </div>
+
+
+
+    <div id="Experience"></div>
+        <center><h1 style="padding:5pc 0 2pc 0;color:#ffca38;">My Experience</h1></center>
+        <div id="ExperienceBox">
+            <div class="E_con">
+                <img src="/Images/Codechef.png" alt="">
+                <h3>Speaker in Ecell</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, quidem ipsam. Aliquid perspiciatis facere et, sint, sunt molestiae alias cum doloremque reprehenderit voluptas voluptatibus atque mollitia repudiandae repellendus tempore repellat!</p>
+            </div>
+            <div class="E_con">
+                <img src="/Images/google.png" alt="">
+                <h3>Speaker in Ecell</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, quidem ipsam. Aliquid perspiciatis facere et, sint, sunt molestiae alias cum doloremque reprehenderit voluptas voluptatibus atque mollitia repudiandae repellendus tempore repellat!</p>
+            </div>
+            <div class="E_con">
+                <img src="/Images/Codechef.png" alt="">
+                <h3>Speaker in Ecell</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, quidem ipsam. Aliquid perspiciatis facere et, sint, sunt molestiae alias cum doloremque reprehenderit voluptas voluptatibus atque mollitia repudiandae repellendus tempore repellat!</p>
+            </div>
+            <div class="E_con">
+                <img src="/Images/Codechef.png" alt="">
+                <h3>Speaker in Ecell</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, quidem ipsam. Aliquid perspiciatis facere et, sint, sunt molestiae alias cum doloremque reprehenderit voluptas voluptatibus atque mollitia repudiandae repellendus tempore repellat!</p>
+            </div>
+
+        </div>
+
+
+
+
+    <div id="Projects">
+        <center><h1 style="color:#ffca38;">Projects</h1></center>
+        <div id="ProjectCon">
+            <div class="project">
+                <img src="/Images/project4.png.jpg" alt="">
+                <span>
+                    <p>10/10/2022</p>
+                    <h3>Youtube clone</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sint fugiat temporibus a eligendi ut iste exercitationem, ipsam libero ea esse numquam architecto similique eius error, non itaque iure nemo!</p>
+                </span>
+                <a href=""><button><i class="fa-solid fa-angle-right"></i><p>Visit the page</p></button></a>
+             </div>
+             <div class="project">
+                <img src="/Images/project4.png.jpg" alt="">
+                <span>
+                    <p>10/10/2022</p>
+                    <h3>Youtube clone</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sint fugiat temporibus a eligendi ut iste exercitationem, ipsam libero ea esse numquam architecto similique eius error, non itaque iure nemo!</p>
+                </span>
+                <a href=""><button><i class="fa-solid fa-angle-right"></i><p>Visit the page</p></button></a>
+             </div>
+             <div class="project">
+                <img src="/Images/project4.png.jpg" alt="">
+                <span>
+                    <p>10/10/2022</p>
+                    <h3>Youtube clone</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sint fugiat temporibus a eligendi ut iste exercitationem, ipsam libero ea esse numquam architecto similique eius error, non itaque iure nemo!</p>
+                </span>
+                <a href=""><button><i class="fa-solid fa-angle-right"></i><p>Visit the page</p></button></a>
+             </div>
+             <div class="project">
+                <img src="/Images/project4.png.jpg" alt="">
+                <span>
+                    <p>10/10/2022</p>
+                    <h3>Youtube clone</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sint fugiat temporibus a eligendi ut iste exercitationem, ipsam libero ea esse numquam architecto similique eius error, non itaque iure nemo!</p>
+                </span>
+                <a href=""><button><i class="fa-solid fa-angle-right"></i><p>Visit the page</p></button></a>
+             </div>
+             <div class="project">
+                <img src="/Images/project4.png.jpg" alt="">
+                <span>
+                    <p>10/10/2022</p>
+                    <h3>Youtube clone</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sint fugiat temporibus a eligendi ut iste exercitationem, ipsam libero ea esse numquam architecto similique eius error, non itaque iure nemo!</p>
+                </span>
+                <a href=""><button><i class="fa-solid fa-angle-right"></i><p>Visit the page</p></button></a>
+             </div>
+             <div class="project">
+                <img src="/Images/project4.png.jpg" alt="">
+                <span>
+                    <p>10/10/2022</p>
+                    <h3>Youtube clone</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed sint fugiat temporibus a eligendi ut iste exercitationem, ipsam libero ea esse numquam architecto similique eius error, non itaque iure nemo!</p>
+                </span>
+                <a href=""><button><i class="fa-solid fa-angle-right"></i><p>Visit the page</p></button></a>
+             </div>
+        </div>
+    </div>
+
+
+
+
+
+    <footer id="footer">
+        <img src="/Images/me.png" alt="">
+        <div>
+            <h1>Thanks for viewing my portfolio</h1>
+            <p>This page will be updated annually, view it to Know the updates</p>
+            <span>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </span>
+            <button onclick="OpenContacts()">Contact <i class="fa-solid fa-angle-right"></i></button>
+        </div>
+    </footer>
+
+
+
+
+    <div id="Contacts" style="display:none;">
+        <div id="ContactsBox">
+            <div id="ContactsBoxNav">
+                <i onclick="CloseContacts()" class="fa-solid fa-angle-left"></i>
+                <h2>Contacts</h2>
+            </div>
+            <div id="ContactsOption">
+                <span><i class="fa-brands fa-whatsapp"></i><p>9233216588</p></span>
+                <span><i class="fa-regular fa-envelope"></i><p>satabdigoswami87@gmail.com</p></button></span>
+            </div>
+            <hr>
+            <div id="ContactsOption2">
+                <a href="/"><span><p class="fa-brands fa-instagram"></p><h4>Instagram</h4><i class="fa-solid fa-angle-right"></i></span></a>
+                <a href="/"><span><p class="fa-brands fa-linkedin"></p><h4>LinkedIn</h4><i class="fa-solid fa-angle-right"></i></span></a>
+                <a href="/"><span><p class="fa-brands fa-twitter"></p><h4>Twitter</h4><i class="fa-solid fa-angle-right"></i></span></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    
+    <style>
+        #ScrollUpBtn{width:60px;aspect-ratio:1/1;border-radius:15px;background:#fff;color:#000;box-shadow:0 5px 8px 0 #000;position:fixed;right:14px;cursor:pointer;bottom:14px;display:none;animation:pop 0.4s ease;transition:0.5s ease;}
+        #ScrollUpBtn:hover{background:#f1f1f1;}
+        @keyframes pop{
+            from{transform:translate(0,5pc);opacity:0;}
+            to{transform:translate(0,0);opacity:1;}
+        }
+        #ScrollUpBtn:active{scale:90%;}
+    </style>
+    <abbr title="Scroll back to the top"><a href="#"><button id="ScrollUpBtn" class="fa-solid fa-angle-up"></button></a></button></abbr>
+
+
+
+    <div id="Menu">
+        <div id="Options">
+            <a href="/"><button><i class="fa-solid fa-home"></i> Home</button></a>
+            <a href="/#Skills"><button><i class="fa-solid fa-pen"></i> Skills</button></a>
+            <a href="/#Achievements"><button><i class="fa-solid fa-book"></i> Achievements</button></a>
+            <a href="/#Experience"><button><i class="fa-solid fa-home"></i>Experience</button></a>
+            <a href="/#Projects"><button><i class="fa-solid fa-home"></i>Projects</button></a>
+            <button style="background:#dfa70e;"><i class="fa-solid fa-wifi"></i>Contacts</button>
+        </div>
+    </div>
+    
+
+    <style>
+        #ball{width:120px;aspect-ratio:1/1;border-radius:100%;background:#fff;box-shadow:0 0 5pc 0 #fff;position:fixed;left:0;cursor:grab;transform:translate(-40%,-50%);transition:none;}
+    </style>
+    <button id="ball"></button>
+
+    
+
+
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('.wannabe', {
+      strings: ['Programmer','Developer','Script writer','Illustrater','Entrepreneur'],
+      typeSpeed: 100,
+      backSpeed: 150,
+      loop: true
+    });
+
+    document.addEventListener('contextmenu',(e)=>{e.preventDefault()})
+</script>
+<script src="script.js"></script>
+</body>
+</html>
