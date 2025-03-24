@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satabdi Goswami - Portfolio</title>
+    <meta name="theme-color" content="#000">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1cursorXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="icon" href="me.png">
+    <link rel="stylesheet" href="My.css">
+    
+</head>
+<body>
+
+    <nav id="nav">
+        <a href="/"><h5 id="navTitle"></h5></a>
+        <div id="navRight">
+            <a href="/"><abbr title="Home"><button data-count="Home">Home</button></abbr></a>
+            <a href="#Skills"><abbr title="Skills"><button data-count="Skills">Skills</button></abbr></a>
+            <a href="#Achievements"><abbr title="Achievements"><button data-count="Achievements">Achievements</button></abbr></a>
+            <a href="#Experience"><abbr title="Experience"><button data-count="Experience">Experience</button></abbr></a>
+            <a href="#Projects"><abbr title="Projects"><button data-count="Projects">Projects</button></abbr></a>
+
+            <abbr title="Contacts"><span onclick="OpenContacts()">Contact me</span></abbr>
+        </div>
+        <button id="navMenu" onclick="Menu()" class="fa-solid fa-bars"></button>
+    </nav>
+
+
+
+    <div id="Con1"> 
+        <img src="me2.jpeg" alt="">
+        <div id="Con1Info">
+            <h3 style="display:none;animation:rise 1s ease;" id="C11">Hello there !,</h3>
+            <h3 style="display:none;animation:rise 1s ease;" id="C12">Welcome to my Portfolio webpage,</h3>
+            <h1 style="display:none;" id="C13">My name is </h1>
+            <h2 style="display:none;" id="C14"></h2>
+            <p style="display:none;" id="C15">Hello everyone, I am Satabdi Goswami, a pre-final year CSE Undergraduate at NIT Agartala. I am an aspiring software engineer and a programming enthusiast. Proficient in DSA, competitive programming and web development, I aspire to work in these domains in the future. I am also keen on learning new skills and further implementing my existing ones. I am actively seeking work and collaboration opportunities.</p>
+            <span style="display:none;" id="C16">
+                <a href="https://www.instagram.com/satabdi_24_/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/satabdi-goswami-271903256/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://x.com/SatabdiGos60339"><i class="fa-brands fa-twitter"></i></a>
+            </span>
+            <a href="https://drive.google.com/file/d/1giKn7JoshCDkYb7gCHJSQPsrVHLpDbWX/view?usp=sharing" target="_blank"><button id="C17" style="display:none;"><i class="fa-solid fa-book"></i> Visit_Resume <p class="fa-solid fa-angle-right"></p></button></a>
+        </div> 
+    </div>
+
+    
+
+    <div  id="Skills">
+        <center id="Con2">
+            <h1>My Skills</h1>
+            <p style="margin-top:3pc;">Basics</p>
+            <div id="Con2Com">
+                <abbr title="HTML"><img src="html.png" alt=""></abbr>
+                <abbr title="CSS"><img style="animation-delay:1s;" src="css.png" alt=""></abbr>
+                <abbr title="Javascript"><img src="js.png" alt=""></abbr>
+                <abbr title="React"><img src="react.png" alt=""></abbr>
+            </div>
+            <p style="margin-top:5pc;">Languages</p>
+            <div id="Con2Com">
+                <abbr title="Java"><img src="java.png" alt=""></abbr>
+                <abbr title="Cpp"><img style="animation-delay:1s;" src="cpp.png" alt=""></abbr>
+                <abbr title="Python"><img src="python.png" alt=""></abbr>
+                <abbr title="Javascript"><img src="js.png" style="animation-delay:1s;" alt=""></abbr>
+                <abbr title="SQL"><img src="sql.png" style="border-radius: 100%;" alt=""></abbr>
+            </div>
+
+            <p style="margin-top:5pc;">Computer Fundamentals</p>
+            <div id="Con2Com">
+                <abbr title="Java"><img src="oops.jpg" alt=""></abbr>
+                <abbr title="Cpp"><img style="animation-delay:1s;" src="dbms.jpg" alt=""></abbr>
+                <abbr title="Python"><img src="os.png" alt=""></abbr>
+                <abbr title="Javascript"><img src="cn.jpg" style="animation-delay:1s;" alt=""></abbr>
+                <abbr title="SQL"><img src="solid.png" style="border-radius: 100%;" alt=""></abbr>
+            </div>
+            <!-- <div id="Con2ComHighlight">
+                <img src="java.png" alt="">
+                <div id="Con2ComHighlightInfo">
+                    
+                    <h2>Object oriented Programming System</h2>
+                    <p>Java holds the distinction of being my inaugural programming language, which I embarked upon during my collegiate years. Over a dedicated span of two years, I have consistently honed my skills through rigorous practice and hands-on experience. This commitment has culminated in a mastery of Java, evident in my adeptness at crafting efficient and elegant solutions to diverse programming challenges</p><br>
+                    
+                    <h2>Data Base management System</h2>
+                    <p>I have a solid understanding of Database Management Systems (DBMS), including concepts such as data modeling, normalization, and query optimization. My experience includes working with relational databases like MySQL and PostgreSQL, where I designed and implemented efficient data structures. I am proficient in writing complex SQL queries to retrieve and manipulate data, ensuring data integrity and security. This knowledge has equipped me to effectively manage and analyze data for various applications.</p>
+                   
+                    <h2>Operating System</h2>
+                    <p>I possess a strong understanding of Operating Systems (OS), covering key concepts such as process management, memory management, and file systems. My experience includes working with both Windows and Linux environments, allowing me to effectively navigate and utilize system resources. I am knowledgeable in shell scripting and system calls, enabling efficient automation of tasks and system operations. This foundational knowledge has enhanced my ability to optimize system performance and troubleshoot issues effectively.</p>
+                </div>
+            </div> -->
+            <p style="margin-top:5pc;">Tools</p>
+            <div id="Con2Com">
+                <a href="https://github.com/SatabdiGoswami" target="_blank"><abbr title="Github"><img src="github.png" alt=""></abbr></a>
+                <abbr title="Vs code"><img  style="animation-delay:1s;" src="vsCode.webp" alt=""></abbr>
+                <abbr title="Google Collab"><img src="google.png" alt=""></abbr> 
+                <abbr title="Intellij"><img  style="animation-delay:1s;" src="Intellij.png" alt=""></abbr>
+                <abbr title="Git"><img src="/Images/git.png" alt=""></abbr>
+            </div>
+            <p style="margin-top:5pc;">Soft Skills</p>
+            <div id="SkillOther">
+                <div class="SkillOtherCard">
+                    <i class="fa-solid fa-book"></i>
+                    <h3>Event management</h3>
+                    <p>I participated in club activities and managed all technical and cultural fest events as a volunteer. This experience enhanced my organizational skills and teamwork, allowing me to contribute effectively to event planning and execution while fostering a vibrant community atmosphere.</p>
+                </div>
+                <div class="SkillOtherCard">
+                    <i class="fa-solid fa-users"></i>
+                    <h3>Communication</h3>
+                    <p>Effective communication is a vital soft skill that I have honed through leadership roles, enabling me to convey ideas clearly and engage team members effectively. This skill has been instrumental in fostering collaboration, resolving conflicts, and motivating others, ensuring that goals are met while maintaining a positive team dynamic.</p>
+                </div>
+                <div class="SkillOtherCard">
+                    <i class="fa-solid fa-flag"></i>
+                    <h3>Leadership</h3>
+                    <p>As a core team member of the Startup and Development team at E-cell NITA, I have developed strong leadership skills by organizing and conducting various events. This role has enhanced my ability to lead projects, collaborate with team members, and inspire others to foster innovation and entrepreneurship within the community.</p>
+                </div>
+            </div>
+        </center>
+    </div>
+
+
+
+    <div id="Achievements">
+        <center><h1 style="margin:5pc 0 3pc 0;color:#ffca38;">My Achievements</h1></center>
+        <table id="AchievementsCon">
+            <tr>
+                <th style="background:#fff;color:#000;">Achievements</th>
+                <th style="background:#fff;color:#000;">Organiser</th>
+            </tr>
+
+            <tr><th>Semi-Finalist at TATA Elxi Hacathon conducted by Tata Elxi groups</th><th>Tata Groups</th></tr>
+            <tr><th>Selected for Myntra Hackerramp 2nd round out of 45k participants</th><th>Myntra</th></tr>
+            <tr><th>Succesfully participated in Meity Tide 2.0 Techathon a startup pitching competition </th><th>E-cell NITA</th></tr>
+            <tr><th>Qualified for Flipkart Grid 1.2 healthtrack</th><th>Flipkart</th></tr>
+            <tr><th>Solved 300+ problems in Codechef ,400+ problems in Leetcode</th><th>Coding Platforms</th></tr>
+            <tr><th>Succesfully completed 3 days BootCamp of Algo University where we tackle with graph related problems</th><th>Algo University</th></tr>
+            <tr><th>Completed 6 week training on Core Java ,Learned Java Fundamental and OOPS </th><th>Apna College</th></tr>
+            
+        </table>
+    </div>
+
+
+
+    <div id="Experience"></div>
+        <center><h1 style="padding:5pc 0 2pc 0;color:#ffca38;">My Experience</h1></center>
+        <div id="ExperienceBox">
+            <div class="E_con">
+                <img src="statup.jpg" alt="">
+                <h3>Startup and development Lead</h3>
+                <p>I have been actively involved in developing startup ideas, focusing on innovative solutions and business models. Additionally, I have contributed to several open-source projects, collaborating with developers to create impactful tools and technologies. As part of the E-cell at NITA, I regularly participate in weekly roundtable meetings, where we discuss entrepreneurial strategies, share knowledge, and plan initiatives aimed at fostering innovation and growth in the student community.</p>
+            </div>
+            <div class="E_con">
+                <img src="letsgrowmore_logo.jpg" alt="">
+                <h3>Web development Internship</h3>
+                <p>I completed a web development internship at Lets Grow More, where I contributed to an e-commerce project and honed my skills.  Successfully completed weekly tasks while gaining hands-on experience in real-world development.</p>
+            </div>
+            <div class="E_con">
+                <img src="ap.jpg" alt="">
+                <h3>Artificial intelligent Intern from Teachnook</h3>
+                <p>I completed a 2-month internship at Teachnook, where I gained hands-on experience working on a variety of projects, both major and minor. These projects deepened my understanding of AI concepts, tools, and methodologies. I collaborated with team members to solve complex problems, contributing to the development of innovative AI solutions. This experience not only strengthened my technical skills but also gave me valuable insights into the practical applications of AI, further fueling my passion for the field.</p>
+            </div>
+           
+
+        </div>
+
+
+
+
+    <div id="Projects">
+        <center><h1 style="color:#ffca38;">Projects</h1></center>
+        <div id="ProjectCon">
+            <div class="project">
+                <img src="project4.png.jpg" alt="">
+                <span>
+                    <h3>Youtube clone</h3>
+                    <p>I created a YouTube clone using HTML and CSS, replicating the homepage layout with a responsive video grid and navigation bar. This project helped me improve my front-end design skills and gain experience in building user interfaces.</p>
+                </span>
+             </div>
+             <div class="project">
+                <img src="Android_app.png" alt="">
+                <span>
+                    <h3>Digital Android Application</h3>
+                    <p>I developed a digital Android application using HTML, CSS, and JavaScript, featuring an interactive user interface and smooth functionality. This project enhanced my skills in web technologies, enabling me to create responsive and dynamic applications for mobile platforms.</p>
+                </span>
+             </div>
+             <div class="project">
+                <img src="dashboard.png" alt="">
+                <span>
+                    <h3>Professional Dashbord</h3>
+                    <p>I created a professional dashboard using Excel, incorporating data visualization tools like charts and pivot tables to display key insights. This project helped me improve my data analysis skills, enabling clear and interactive reporting for informed decision-making.</p>
+                </span>
+             </div>
+             <div class="project">
+                <img src="Analog.png" alt="">
+                <span>
+                    <h3>Analog Clock</h3>
+                    <p>I created an analog game using HTML, CSS, and JavaScript, featuring engaging gameplay mechanics and an intuitive user interface. This project allowed me to enhance my skills in game development and client-side scripting, delivering an interactive experience for users.</p>
+                </span>
+             </div>
+             <div class="project">
+                <img src="Tic_tac_toe.png" alt="">
+                <span>
+                    <h3>Tic-tac-toe</h3>
+                    <p>I developed a Tic-Tac-Toe game using HTML, CSS, and JavaScript, featuring a simple and interactive user interface. This project enhanced my skills in front-end development and JavaScript logic, enabling dynamic gameplay and responsive design.</p>
+                </span>
+             </div>
+             <div class="project">
+                <img src="ecommerce.png" alt="">
+                <span>
+                    <h3>Food delivery NITA</h3>
+                    <p>I developed a food delivery application called "Food Delivery NITA" using HTML, CSS, and JavaScript, designed to facilitate the delivery of food items within the campus. This project allowed me to implement user-friendly features and enhance my skills in web development, providing a seamless ordering experience for users.</p>
+                </span>
+             </div>
+             <div class="project">
+                <img src="face_recognition.png" alt="">
+                <span>
+                    <h3>Face recognition</h3>
+                    <p>I built a face recognition system using basic machine learning techniques, capable of identifying and verifying faces from images. This project enhanced my understanding of machine learning algorithms and their practical applications in image processing and recognition tasks.</p>
+                </span>
+             </div>
+        </div>
+    </div>
+
+
+
+
+
+    <footer id="footer">
+        <img src="me.png" alt="">
+        <div>
+            <h1>Thanks for viewing my portfolio</h1>
+            <p>This page will be updated annually, view it to Know the updates</p>
+            <span>
+                <a href="https://www.instagram.com/_satabdi_02/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/satabdi-goswami-271903256/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://x.com/SatabdiGos60339"><i class="fa-brands fa-twitter"></i></a>
+            </span>
+            <button onclick="OpenContacts()">Contact <i class="fa-solid fa-angle-right"></i></button>
+        </div>
+    </footer>
+
+
+
+
+    <div id="Contacts" style="display:none;">
+        <div id="ContactsBox">
+            <div id="ContactsBoxNav">
+                <i onclick="CloseContacts()" class="fa-solid fa-angle-left"></i>
+                <h2>Contacts</h2>
+            </div>
+            <div id="ContactsOption">
+                <span><i class="fa-regular fa-envelope"></i><p>satabdigoswami87@gmail.com</p></button></span>
+            </div>
+            <hr>
+            <div id="ContactsOption2">
+                <a href="https://www.instagram.com/satabdi_24_/"><span><p class="fa-brands fa-instagram"></p><h4>Instagram</h4><i class="fa-solid fa-angle-right"></i></span></a>
+                <a href="https://www.linkedin.com/in/satabdi-goswami-271903256/"><span><p class="fa-brands fa-linkedin"></p><h4>LinkedIn</h4><i class="fa-solid fa-angle-right"></i></span></a>
+                <a href="https://x.com/SatabdiGos60339"><span><p class="fa-brands fa-twitter"></p><h4>Twitter</h4><i class="fa-solid fa-angle-right"></i></span></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    
+    <style>
+        #ScrollUpBtn{width:60px;aspect-ratio:1/1;border-radius:15px;background:#fff;color:#000;box-shadow:0 5px 8px 0 #000;position:fixed;right:14px;cursor:pointer;bottom:14px;display:none;animation:pop 0.4s ease;transition:0.5s ease;}
+        #ScrollUpBtn:hover{background:#f1f1f1;}
+        @keyframes pop{
+            from{transform:translate(0,5pc);opacity:0;}
+            to{transform:translate(0,0);opacity:1;}
+        }
+        #ScrollUpBtn:active{scale:90%;}
+    </style>
+    <abbr title="Scroll back to the top"><a href="#"><button id="ScrollUpBtn" class="fa-solid fa-angle-up"></button></a></button></abbr>
+
+
+
+    <div id="Menu">
+        <div id="Options">
+            <a href="/"><button><i class="fa-solid fa-home"></i> Home <p class="fa-solid fa-angle-right"></p></button></a>
+            <a href="/#Skills"><button><i class="fa-solid fa-pen"></i> Skills <p class="fa-solid fa-angle-right"></p></button></a>
+            <a href="/#Achievements"><button><i class="fa-solid fa-star"></i> Achievements <p class="fa-solid fa-angle-right"></p></button></a>
+            <a href="/#Experience"><button><i class="fa-solid fa-book"></i>Experience <p class="fa-solid fa-angle-right"></p></button></a>
+            <a href="/#Projects"><button><i class="fa-solid fa-compass"></i>Projects <p class="fa-solid fa-angle-right"></p></button></a>
+            <button onclick="OpenContacts()" style="background:#ff9100;"><i class="fa-solid fa-wifi"></i>Contacts <p class="fa-solid fa-angle-right"></p></button>
+        </div>
+    </div>
+    
+
+    <style>
+        #ball{width:120px;aspect-ratio:1/1;border-radius:100%;background:#fff;box-shadow:0 0 5pc 0 #fff;position:fixed;left:0;cursor:grab;transform:translate(-40%,-50%);transition:none;}
+        @media(max-width:940px){#ball{display:none;}}
+    </style>
+    <button id="ball"></button>
+
+    
+
+
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#C14', {
+      strings: ['Programmer','Developer','Entrepreneur','Artist'],
+      typeSpeed: 100,
+      backSpeed: 150,
+      loop: true
+    });
+
+    // document.addEventListener('contextmenu',(e)=>{e.preventDefault()})
+</script>
+<script src="script.js"></script>
+</body>
+</html>
